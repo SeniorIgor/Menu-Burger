@@ -1,7 +1,7 @@
 # Menu burger
 ### Menu-burger - адаптивное меню "бургер" на HTML, SCSS.
 
-<img src="https://github.com/SeniorIgor/Menu-Burger/blob/master/for-readmy.png" alt="menu-burger" width="300" height="auto"/>
+<img src="https://github.com/SeniorIgor/Menu-Burger/blob/master/for-readme.png" alt="menu-burger" width="300" height="auto"/>
 
 <br>
 <br>
