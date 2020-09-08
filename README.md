@@ -1,4 +1,4 @@
-# Memu burger
+# Menu burger
 ### Menu-burger - адаптивное меню "бургер" на HTML, SCSS.
 
 <img src="https://github.com/SeniorIgor/Menu-Burger/blob/master/for-readmy.png" alt="menu-burger" width="300" height="auto"/>
