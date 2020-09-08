@@ -1,4 +1,4 @@
-# Menu burger
+# <a href="https://github.com/SeniorIgor/Menu-Burger#menu-burger"><img src="https://github.com/SeniorIgor/Menu-Burger/blob/master/for-readme.png" alt="menu-burger" width="30" height="auto"/></a> Menu burger
 ### Menu-burger - адаптивное меню "бургер" на HTML, SCSS.
 
 <img src="https://github.com/SeniorIgor/Menu-Burger/blob/master/for-readme.png" alt="menu-burger" width="300" height="auto"/>
