@@ -51,10 +51,6 @@ body {
 		justify-content: space-between;
 		align-items: center;
 		height: 80px;
-
-		@media (max-width: 767px) {
-			height: 50px;
-		}
 	}
 
 	&__logo {
@@ -67,16 +63,43 @@ body {
 			max-width: 100%;
 			display: block;
 		}
-
-		@media (max-width: 767px) {
-			flex: 0 0 40px;
-		}
 	}
 
 	&__burger {
 		display: none;
+	}
 
-		@media (max-width: 767px) {
+	// &__menu {
+	// }
+
+	&__list {
+		position: relative;
+		display: flex;
+		list-style: none;
+		z-index: 2;
+
+		& li {
+			margin: 0 0 0 20px;
+		}
+	}
+
+	&__link {
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+
+	@media (max-width: 767px) {
+		&__body {
+			height: 50px;
+		}
+
+		&__logo {
+			flex: 0 0 40px;
+		}
+
+		&__burger {
 			display: block;
 			position: relative;
 			width: 30px;
@@ -125,10 +148,8 @@ body {
 				bottom: 0;
 			}
 		}
-	}
 
-	&__menu {
-		@media (max-width: 767px) {
+		&__menu {
 			position: fixed;
 			top: -100%;
 			left: 0;
@@ -143,18 +164,11 @@ body {
 				top: 0;
 			}
 		}
-	}
 
-	&__list {
-		position: relative;
-		display: flex;
-		list-style: none;
-		z-index: 2;
+		&__list {
+			display: block;
 
-		& li {
-			margin: 0 0 0 20px;
-
-			@media (max-width: 767px) {
+			& li {
 				margin: 0 0 20px 0;
 
 				&:last-child {
@@ -163,18 +177,7 @@ body {
 			}
 		}
 
-		@media (max-width: 767px) {
-			display: block;
-		}
-	}
-
-	&__link {
-		color: #ffffff;
-		text-decoration: none;
-		font-size: 18px;
-		text-transform: uppercase;
-
-		@media (max-width: 767px) {
+		&__link {
 			font-size: 24px;
 		}
 	}
@@ -196,94 +199,3 @@ body {
 		padding: 70px 0 0 0;
 	}
 }
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-// //
-
-// //<FONTS>=======================================================================================
-
-// @import "fonts.scss";
-
-// //</FONTS>=======================================================================================
-
-// //<VARIABLE>======================================================================================
-
-// $fontfamily: "Lato";
-// $minwidth: 320px;
-// $fz: 16px;
-// $lh: 30px;
-// $color: #848789;
-
-// //</VARIABLE>===========================================================================================
-
-// //<GENERAL PARAMETERS>===================================================================================
-
-// @import "null.scss";
-
-// //</GENERAL PARAMETERS>==================================================================================
-
-// //<MAIN GRID>======================================================================
-
-// .container {
-// 	padding: 0 15px;
-// 	margin: 0 auto;
-// 	max-width: 1130px;
-// }
-
-// .wrapper {
-// 	overflow: hidden;
-// 	min-height: 100%;
-// }
-
-// .ibg {
-// 	background-position: center;
-// 	background-size: cover;
-// 	background-repeat: no-repeat;
-// 	img {
-// 		display: none;
-// 	}
-// }
-
-// //</MAIN GRID>======================================================================
-
-// //<CONNECTING PAGE STYLE FILES AND ELEMENTS>======================================================================
-
-// @import "mixins.scss";
-// @import "header.scss";
-
-// //</CONNECTING PAGE STYLE FILES AND ELEMENTS>======================================================================
-
-// //<MAIN CONTENT>======================================================================
-
-// .page {
-// 	position: absolute;
-// 	display: flex;
-// 	flex-direction: column;
-// 	width: 100%;
-// 	height: 100%;
-// 	top: 0;
-// 	left: 0;
-// }
-// .main-screen {
-// 	flex: 1 0 100%;
-// 	position: relative;
-
-// 	&__bg {
-// 		position: absolute;
-// 		width: 100%;
-// 		height: 100%;
-// 		top: 0;
-// 		left: 0;
-// 	}
-// }
